@@ -66,6 +66,22 @@ header.masthead p {
     display: none;
 }
 
+.project-name{
+    display:none;
+}
+
+.sitepreview_item{
+    position:relative;
+}
+
+.hover_content{
+    position:absolute;
+    right:50%;
+    top:50%;
+    display:none;
+    color: white;
+}
+
 
 
 

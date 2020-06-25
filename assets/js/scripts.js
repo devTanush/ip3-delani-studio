@@ -17,4 +17,12 @@ $(document).ready(function() {
         // $("body").addClass("green-background");
     });
 
+    $('.sitepreview_item').hover(function() {
+
+        $('.hover_content',this).fadeIn();
+
+    }, function() {
+        $('.hover_content', this).fadeOut();
+    });
+
 });
