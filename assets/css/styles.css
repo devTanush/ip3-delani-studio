@@ -1,3 +1,4 @@
+/*Navigation*/
 #mainNav {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
@@ -22,6 +23,7 @@
     color: #f4623a !important;
 }
 
+/*Masthead*/
 header.masthead {
     padding-top: 10rem;
     padding-bottom: 14rem;
@@ -39,6 +41,35 @@ header.masthead p {
     color: #ffffff;
 }
 
+/*About*/
+.page-section#about {
+    padding: 8rem 0;
+}
+
+.page-section#about p {
+    line-height: 2;
+}
+
+/*Services*/
+.page-section#services {
+    padding: 8rem 0;
+}
+.service-detail{
+    background-image: url("../img/s_image.jpg");
+    background-repeat:  no-repeat;
+    /*background-attachment: scroll;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+}
+
+.design-detail, .dev-detail, .product-detail{
+    display: none;
+}
+
+
+
+
+/*Footer*/
 footer{
     width: 100%;
     height: auto;
