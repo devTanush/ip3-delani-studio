@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.social_icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.social_icons ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.social_icons ul li {
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+}
