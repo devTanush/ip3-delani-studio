@@ -19,10 +19,12 @@ $(document).ready(function() {
 
     $('.sitepreview_item').hover(function() {
 
-        $('.hover_content',this).fadeIn();
+        $(".hover_content",this).fadeIn();
+        $(".portfolio-img", this).fadeTo('slow', 0.33);
 
     }, function() {
-        $('.hover_content', this).fadeOut();
+        $(".hover_content").fadeOut();
+        $(".portfolio-img").fadeTo('slow', 1);
     });
 
 });
