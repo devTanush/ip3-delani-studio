@@ -18,13 +18,12 @@ $(document).ready(function() {
     });
 
     $('.sitepreview_item').hover(function() {
-
         $(".hover_content",this).fadeIn();
-        $(".portfolio-img", this).fadeTo('slow', 0.33);
+        $(".portfolio-img", this).fadeTo('fast', 0.33);
 
     }, function() {
         $(".hover_content").fadeOut();
-        $(".portfolio-img").fadeTo('slow', 1);
+        $(".portfolio-img").fadeTo('fast', 1);
     });
 
 });

@@ -76,13 +76,33 @@ header.masthead p {
 
 .hover_content{
     position:absolute;
-    right:50%;
-    top:50%;
+    right:40%;
+    top:45%;
     display:none;
     color: white;
 }
 
-
+#portfolio {
+    box-sizing: border-box;
+}
+#portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+#portfolio .row .column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.portfolio-img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.hover_content p {
+    color: black;
+}
 
 
 /*Footer*/
