@@ -57,11 +57,9 @@ header.masthead p {
 .service-detail{
     background-image: url("../img/s_image.jpg");
     background-repeat:  no-repeat;
-    /*background-attachment: scroll;*/
-    /*background-position: center;*/
-    /*background-size: cover;*/
 }
 
+/*Portfolio*/
 .design-detail, .dev-detail, .product-detail{
     display: none;
 }
@@ -89,11 +87,14 @@ header.masthead p {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
 }
 #portfolio .row .column{
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+    -ms-flex: 25%;
 }
 .portfolio-img {
     margin-top: 8px;
@@ -102,6 +103,22 @@ header.masthead p {
 }
 .hover_content p {
     color: black;
+}
+
+/*Contact*/
+.page-section#contact {
+    padding: 8rem 0;
+    background-image: url("../img/c_image.jpg");
+    background-repeat:  no-repeat;
+}
+#name, #email, #message {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+::placeholder {
+    color: white;
 }
 
 
